@@ -1,0 +1,23 @@
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#0e0f14;
+  color:#e6eef6;
+}
+.container{width:90%;max-width:1000px;margin:0 auto}
+.site-header{background:#121217;position:sticky;top:0;padding:12px 0}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{width:40px;height:40px;background:#ffcf4d;display:flex;align-items:center;justify-content:center;border-radius:8px;font-weight:bold}
+.nav a{color:#9aa0a6;margin:0 8px;text-decoration:none}
+.btn{padding:8px 14px;border-radius:6px;text-decoration:none}
+.btn.primary{background:#6de0ff;color:#000;font-weight:bold}
+.btn.ghost{border:1px solid #9aa0a6;color:#9aa0a6}
+.hero{padding:60px 0;text-align:center}
+.section{padding:40px 0}
+.section.alt{background:#121217}
+.tokenomics-list{background:#1b1b22;padding:16px;border-radius:8px}
+.roadmap{background:#1b1b22;padding:16px;border-radius:8px}
+.socials{display:flex;gap:10px;margin-top:10px}
+.social{padding:10px 12px;background:#1b1b22;border-radius:6px;text-decoration:none;color:#9aa0a6}
+.site-footer{text-align:center;font-size:14px;color:#9aa0a6;padding:20px 0;background:#121217}
